@@ -1,0 +1,31 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	width: 100%;
+}
+.logo {
+	display: flex;
+	width: 50%;
+}
+.nav {
+	width: 50%;
+	display: flex;	
+}
+.header a {
+	text-decoration: none;
+}
+.nav div {
+	background: black;
+}
+.nav .special {
+	background: green;
+}
