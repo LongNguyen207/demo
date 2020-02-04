@@ -42,6 +42,7 @@
 .special {
 	width: 10%;
 	background: green;
+	text-align: center;
 }
 .special div {
 	margin: 15px;
