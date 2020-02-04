@@ -12,14 +12,20 @@
 	align-items: baseline;
 	width: 100%;
 }
+.header a {
+	text-decoration: none;
+}
 .logo {
 	display: flex;
 	width: 50%;
 }
 .nav {
 	width: 50%;
-	display: flex;	
+	display: flex;
+	background: black;
+	justify-content: center;
 }
-.header a {
-	text-decoration: none;
+.nav div {
+	margin: 15px;
 }
+
