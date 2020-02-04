@@ -90,3 +90,19 @@ table td {
 	font-size: 20px;
 	height: 45px;
 }
+.image {
+	width: 100%;
+	display: flex;
+}
+.image .image-1 {	
+	width: 50%;
+}
+.image .image-1 img {		
+	width: 100%;
+}
+.image .image-2 {
+	width: 50%;
+}
+.image .image-2 img {		
+	width: 100%;
+}
