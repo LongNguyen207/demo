@@ -6,50 +6,44 @@
 	display: flex;
 	flex-direction: column;
 }
-.header {
+header {
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
-	width: 100%;
+	width: 100%
 }
-.header a {
+.index {
+	width: 40%;
+}
+.index a {
 	text-decoration: none;
-}
-.logo {
-	display: flex;
-	width: 50%;
-}
-.logo div {
-	margin: 15px;
-}
-.logo div a {
 	color: green;
 	font-size: 25px;
+	margin: 15px;
+}
+.index h2 {
+	color: green;
 }
 .nav {
-	width: 40%;
 	display: flex;
-	background: black;
 	justify-content: center;
+	width: 50%;
+	background: black;
 }
-.nav div {
+.nav ul li {
+	display: inline-block;
+	color: white;
+	font-size: 20px;
 	margin: 15px;
 }
-.nav div a {
-	color: white;
-	font-size: 25px;
-}
-.special {
+.contact {
 	width: 10%;
 	background: green;
-	text-align: center;
 }
-.special div {
+.contact p {
+	font-size: 20px;
 	margin: 15px;
-	font-size: 25px;
-}
-.special div a {
-	color: white;
+	text-align: center;
 }
 .slide {
 	width: 100%;
@@ -57,53 +51,50 @@
 .slide img {
 	width: 100%;
 }
-.intro {
-	margin: 95px;
+content {
+	padding: 75px;
 }
-.intro .title {
+content .title {
 	color: green;
 }
-.intro .paragraph {
+content section {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.title-2 {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.intro .paragraph p {
-	font-style: italic;
+.paragraph {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.paragraph p {
 	font-size: 20px;
-}
-.table {
-	width: 100%;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-.table table {
-	width: 100%;
 }
 table {
-  border-collapse: collapse;
+	width: 100%;
+	border-collapse: collapse;
 }
-
 table, th, td {
-  border-bottom: 1px solid black;
-}
-table td {
-	text-align: left;
-	font-size: 20px;
-	height: 45px;
+   border-bottom: 1px solid black;
+   font-size: 20px;
+   text-align: left;
+   padding-top: 25px;
+   padding-bottom: 25px;
 }
 .image {
 	width: 100%;
+}
+.product {
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
-.image .image-1 {	
-	width: 50%;
+.image {
+	width: 45%;
 }
-.image .image-1 img {		
+.image img {
 	width: 100%;
 }
-.image .image-2 {
-	width: 50%;
-}
-.image .image-2 img {		
-	width: 100%;
-}
+
