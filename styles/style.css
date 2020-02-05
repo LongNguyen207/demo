@@ -126,5 +126,72 @@ table, th, td {
 }
 .employee .image-2 img:hover {
 	opacity: 0.5;
-	
+
+}
+.slogan {
+	width: 100%;
+	text-align: center;
+	margin-top:150px;
+	margin-bottom: 150px;
 } 
+.slogan-2 {
+	background: black;
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+.slogan-2 p {
+	padding: 35px;
+	font-size: 25px;
+}
+footer {
+	background: black;
+}
+.members {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	background: gray;
+}
+.members .company {
+	background: black;
+	color: white;
+	width: 12%;
+	margin:15px;
+}
+.company p {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.our {
+	color: white;
+	width: 100%;
+}
+.service {
+	text-align: center;
+}
+.service h2 {
+	padding-top: 205px;
+	padding-bottom: 25px;
+}
+.nav-2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.nav-2 ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.nav-2 ul li {
+	color: white;
+	margin: 15px;
+	font-size: 25px;
+	list-style-type: none;
+}
