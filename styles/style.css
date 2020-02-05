@@ -124,3 +124,6 @@ table, th, td {
 	font-size: 20px;
 	color: white;
 }
+.employee .image-2 img:hover {
+	opacity: 0.5;
+} 
