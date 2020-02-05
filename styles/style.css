@@ -200,3 +200,27 @@ footer {
 	font-size: 35px;
 	text-align: center;
 }
+.number-phone {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.phone {
+	margin: 15px;
+	text-align: center;
+}
+.copyright {
+	color: white;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	opacity: 0.5;
+}
+.doc {
+	margin:35px;
+	opacity: 0.5;
+}
+.doc a {
+	color: white;
+	font-size: 20px;
+}
