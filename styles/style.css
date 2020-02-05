@@ -90,6 +90,7 @@ table, th, td {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .image {
 	width: 45%;
@@ -97,4 +98,29 @@ table, th, td {
 .image img {
 	width: 100%;
 }
-
+.employee {
+	width: 30%;
+	background: lightgray;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.employee img {
+	width: 100%;
+}
+.name {
+	color: green;
+}
+.note {
+	background: green;
+	position: absolute;
+	width: 105px;
+	height: 35px;
+	top: 0px;
+	right: 0px;
+}
+.note p {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
