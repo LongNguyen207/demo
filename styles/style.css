@@ -1,22 +1,16 @@
-* {
-	margin:auto;
-}
-#wrapper {
-	width: 1237px;
-}
 .container {
 	display: flex;
 	flex-direction: column;
-	width: 1237px;
 }
 header {
 	display: flex;
 	flex-direction: row;
 	width: 1237px;
 	height:70px;
+	margin:auto;
 }
 .index {
-	width: 543px;
+	width: 40%;
 	line-height: 70px;
 	margin-left: 25px;
 }
@@ -30,34 +24,33 @@ header {
 }
 .nav {
 	background: black;
-	width: 609px;
+	width: 60%;
 	line-height: 70px;
 }
 .nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;	
+	margin: auto;
 }
 .nav ul li {
 	color: white;
 	font-size: 20px;
 	list-style-type: none;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: auto;
 }
-.contact {
-	width: 85px;
-	line-height: 70px;
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+.nav a:hover {
 	background: green;
-}
-.contact p {
-	font-size: 20px;
-	text-align: center;
 	color: white;
 }
 #slide {
 	width: 1237px;
 	height: 295px;
+	margin: auto;
 }
 #slide img {
     width: 100%;
@@ -65,17 +58,18 @@ header {
 }
 content {
 	width: 1237px;
+	margin: auto;
 }
 #title {
-	width: 895px;
-	margin: 25px auto;
+	width: 80%;
+	margin: auto;
 }
 content .title {
 	color: green;
 }
 #title-2 {
-	width: 895px;
-	margin: 25px auto;
+	width: 80%;
+	margin: auto;
 }
 .title-2 {
 	margin-top: 15px;
@@ -89,8 +83,8 @@ content .title {
 	font-size: 20px;
 }
 #on-time {
-	width: 895px;
-	margin: 25px auto;
+	width: 80%;
+	margin: auto;
 }
 table {
 	width: 100%;
@@ -104,24 +98,26 @@ table, th, td {
    padding-bottom: 25px;
 }
 #images {
-	width: 895px;
+	width: 80%;
 	margin: 25px auto;
 }
 .product {
 	display: flex;
 	flex-direction: row;
-	align-content: space-between;
+	justify-content:space-between;
 	flex-wrap: wrap;
 }
 .image {
-	width: 432px;
+	width: 48.5%;
 	height: 268px;
 }
 .image img {
 	width: 100%;
+	height: 100%;
 }
 #members {
-	width: 895px;
+	width: 80%;
+	margin: auto;
 }
 .image-2 {
 	width: 265px;
@@ -163,15 +159,15 @@ table, th, td {
 	text-align: center;
 	font-size: 20px;
 	color: white;
-	line-height: 35px;
+	margin: auto;
 }
 .employee .image-3 img:hover {
 	opacity: 0.5;
 }
 #slogans {
-	width: 895px;
+	width: 80%;
 	height: 220px; 
-	margin: 25px auto;
+	margin: auto;
 }
 .slogan {
 	width: 100%;
@@ -194,19 +190,20 @@ table, th, td {
 	font-size: 25px;
 }
 #logos {
-	width: 895px;
+	width: 80%;
 	height: 205px;
+	margin:auto;
 }
 .logo {
 	height: 205px;
 }
 .product-2 {
 	display: flex;
-	align-content: space-between;
+	justify-content: space-between;
 	height: 165px; 
 }
 .image-3 {
-	width: 435px;
+	width: 48.5%;
 	height: 105px;
 }
 .image-3 img {
@@ -214,8 +211,9 @@ table, th, td {
 	max-height: 100%;
 }
 #targets {
-	width: 895px;
+	width: 80%;
 	height: 200px;
+	margin: auto;
 }
 .slogan-2 {
 	height: 80px;
@@ -225,8 +223,8 @@ table, th, td {
 }
 footer {
 	width: 1237px;
-	height: 680px;
 	background: black;
+	margin:auto;
 }
 .members {
 	display: flex;
@@ -239,15 +237,15 @@ footer {
 }
 .members .company {
 	color: white;
-	width: 138px;
+	width: 10%;
 	height: 35px;
-	margin: 15px 5px;
+	margin:auto;
 	background: black;
 }
 .company p {
 	text-align: center;
 	font-size: 20px;
-	line-height: 35px;
+	margin: auto;
 }
 .our {
 	margin-top:205px;
