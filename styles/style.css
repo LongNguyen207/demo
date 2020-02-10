@@ -39,7 +39,7 @@ header {
 	font-size: 20px;
 	list-style-type: none;
 	height: 70px;
-	width: 85px;
+	width: 86px;
 	text-align: center;
 }
 .nav a {
@@ -148,6 +148,21 @@ table, th, td {
 .image-2 {
 	width: 265px;
 	height: 265px;
+	position: relative;
+}
+.show {
+	position: absolute;
+	top: 0px;
+	color: white;
+	width: 265px;
+	height: 265px;
+	background: green;
+	text-align: center;
+	opacity: 0;	
+	z-index: 2;
+}
+.show:hover {
+	opacity: 0.5;.
 }
 .image-2 img {
 	width: 100%;
