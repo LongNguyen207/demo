@@ -153,19 +153,24 @@ table, th, td {
 .show {
 	position: absolute;
 	top: 0px;
-	color: white;
+	left: -1000vh;
 	width: 265px;
 	height: 265px;
-	background: green;
+	background: rgba(27,130,104,.7);
 	text-align: center;
-	opacity: 0;	
-	z-index: 2;
+	left: -1000vh;
 }
-.show:hover {
-	opacity: 0.5;.
+.image-2 .show .text {
+	color: white;
+	position: absolute;
+	top: 80px;
 }
 .image-2 img {
 	width: 100%;
+}
+.image-2:hover .show {
+	left:0;
+	z-index: 2;
 }
 .employee {
 	width: 265px;
