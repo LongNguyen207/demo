@@ -209,28 +209,27 @@ table, th, td {
 	text-align: center;
 	color: white;
 	height: 100%;
-	width: 0;
+	width: 100%;
 	background: rgba(27,130,104,.7);	
 	position: absolute;
-	left: 0;
-	top: 0px;
-	z-index: 2;
+	left: -100%;
+	top: 0;
+	/*z-index: -99;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	transition: all 0.5s ease;
+	opacity: 0;
+	pointer-events: none
 }
-.show span {
-	width: 80%;
-	display: none;	
-}
+
 .employee .image-employee:hover .show {
-	width: 100%;
-	/*transition: all 2s ease;*/
+	left: 0;
+	opacity: 1;
+	pointer-events: all
+	/*z-index: 1;*/
 }
-.employee .image-employee:hover .show span {
-	display: block;
-}
+
 .employee .image-employee .note {
 	position: absolute;
 	width: 100px;
